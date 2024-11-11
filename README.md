@@ -9,15 +9,15 @@
 <table>
 <tbody>
  <tr>
-<td align="center" width="50%">
+<td align="center" width="33%">
 <img height=60px src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"> 
 </td>
 
-<td align="center" width="50%">
+<td align="center" width="33%">
 <img height=60px src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"> 
 </td>
-<td align="center" width="50%">
-<img height=60px src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"> 
+<td align="center" width="33%">
+<img height=60px src="leetcode.jpeg"> 
 </td>
 </tr>
 </tbody>
@@ -27,9 +27,6 @@
 <table>
 <tbody>
  <tr>
-<td align="center" width="33%">
-<img height=60px src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg"> 
-</td>
 
 <td align="center" width="33%">
 <img height=60px src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg"> 
@@ -76,7 +73,7 @@
 <tbody>
  <tr>
 <td align="center" width="50%">
-<img height=60px src="https://www.vectorlogo.zone/logos/graphql/graphql-ar21.svg"> 
+<img height=60px src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"> 
 </td>
 <td align="center" width="50%">
 <img height=60px src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"> 
@@ -88,29 +85,46 @@
  - **Data Science**
    - Machine Learning
    - Artificial Intelligence
+  
+  <table>
+<tbody>
+ <tr>
+
+<td align="center" width="33%">
+<img height=60px src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg"> 
+</td>
+  <td align="center" width="33%">
+<img height=60px src="https://www.vectorlogo.zone/logos/usepanda/usepanda-ar21.svg"> 
+</td>
+  <td align="center" width="33%">
+<img height=60px src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"> 
+</td>
+</tr>
+</tbody>
+</table>
     
 <br>
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical" alt="My Github Stats">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=YourUsername&&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="My Github Stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqk26&layout=compact&theme=radical" alt="My Github Stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=tanishqk26&&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="My Github Stats">
 </p>
 
 <br> <br>
-<a href="https://twitter.com/YourTwitterHandle">
+<a href="https://x.com/tanishqk26">
   <img align="left" alt="Your Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
-<a href="https://www.linkedin.com/in/YourLinkedInProfile/">
+<a href="https://www.linkedin.com/in/tanishq-kokane-7611801b4/">
   <img align="left" alt="Your LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
-<a href="https://github.com/YourUsername">
+<a href="https://github.com/tanishqk26">
   <img align="left" alt="Your Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
-<a href="https://www.instagram.com/YourInstagramHandle/">
+<a href="https://www.instagram.com/tanishq.k26/">
   <img align="left" alt="Your Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 </a>
 <br><br>
 
 #### Thanks for visiting :heart:
-![VisitorCount](https://profile-counter.glitch.me/YourUsername/count.svg)
+![VisitorCount](https://profile-counter.glitch.me/tanishqk26/count.svg)
 
-⭐️ From [YourUsername](https://github.com/YourUsername)
+⭐️ From [Tanishq](https://github.com/tanishqk26)
