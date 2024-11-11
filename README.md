@@ -1,10 +1,10 @@
 ### Hello World, I'm Tanishq :
-<img alt="GIF" src="" width=200/>
+<img alt="GIF" src="Main image.jpg" width=300/>
 
 -----
-#### I am a dedicated tech enthusiast and third-year IT student at PDEA College of Engineering, Manjari, working towards becoming a skilled Software Developer. With experience in data analysis, machine learning, and a knack for building responsive solutions, I aim to contribute effectively within collaborative environments.
+#### I am a dedicated tech enthusiast and third-year IT student at PDEA's College of Engineering, Manjari, working towards becoming a skilled Software Developer. With experience in data analysis, machine learning, and a knack for building responsive solutions, I aim to contribute effectively within collaborative environments.
 
-### My skills :woman_technologist:
+### My skills :man_technologist:
 - **Competitive Coding**
 <table>
 <tbody>
@@ -13,6 +13,9 @@
 <img height=60px src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"> 
 </td>
 
+<td align="center" width="50%">
+<img height=60px src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"> 
+</td>
 <td align="center" width="50%">
 <img height=60px src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"> 
 </td>
