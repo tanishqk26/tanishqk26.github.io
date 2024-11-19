@@ -1,5 +1,5 @@
 ### Hello World, I'm Tanishq :
-<img alt="GIF" src="Main image.jpg" width=200/>
+<img alt="GIF" src="Main.jpg" width=200/>
 
 -----
 #### I am a dedicated tech enthusiast and third-year IT student at PDEA's College of Engineering, Manjari, working towards becoming a skilled Software Developer. With experience in data analysis, machine learning, and a knack for building responsive solutions, I aim to contribute effectively within collaborative environments.
