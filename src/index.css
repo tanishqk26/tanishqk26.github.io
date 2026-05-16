@@ -1,0 +1,447 @@
+@import "tailwindcss";
+
+/* ─── Reset ─────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Body — identical to original style.css ───── */
+body {
+  background-image: url('/background-img.webp');
+  image-rendering: optimizeSpeed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.835);
+  font-family: "Poppins", sans-serif;
+  color: azure;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ─── Fade-in scroll animation (identical) ──────── */
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── Navbar ─────────────────────────────────────── */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  margin: 14px;
+}
+
+.logo img {
+  width: 60px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease-in-out;
+}
+
+.logo img:hover {
+  filter: brightness(0) saturate(100%) invert(81%) sepia(10%) saturate(6766%) hue-rotate(135deg) brightness(101%) contrast(101%);
+}
+
+nav {
+  padding: 20px;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00ffcc;
+}
+
+/* ─── Hamburger ──────────────────────────────────── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+  z-index: 20;
+  position: relative;
+}
+
+.hamburger span {
+  background: white;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+/* ─── Hero Section ───────────────────────────────── */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 10vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  flex: 1;
+  font-weight: 100;
+  font-size: 1.7em;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 1.7em;
+}
+
+.hero-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ─── About Section ──────────────────────────────── */
+.About {
+  background-color: rgba(239, 236, 236, 0.05);
+  padding: 50px 10vw;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.About h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.About p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  max-width: 800px;
+}
+
+/* ─── Experience Section ─────────────────────────── */
+.Experience {
+  background-color: rgba(30, 30, 30, 0.8);
+  padding: 50px 10vw;
+  margin-bottom: 40px;
+}
+
+.Experience h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Experience li {
+  margin-bottom: 30px;
+}
+
+.Experience h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.Experience p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/* ─── Projects Section ───────────────────────────── */
+.Projects {
+  background-color: rgba(40, 40, 40, 0.8);
+  padding: 50px 10vw;
+  margin-bottom: 40px;
+}
+
+.Projects h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Projects li {
+  margin-bottom: 30px;
+}
+
+.Projects h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.Projects p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.Projects a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.Projects a:hover {
+  text-decoration: underline;
+}
+
+/* ─── Blog Section ─────────────────────────────── */
+.Blog {
+  background-color: rgba(45, 45, 45, 0.8);
+  padding: 50px 10vw;
+  margin-bottom: 40px;
+}
+
+.Blog h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Blog ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Blog li {
+  margin-bottom: 30px;
+}
+
+.Blog h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.Blog p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.Blog a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.Blog a:hover {
+  text-decoration: underline;
+}
+
+/* ─── Contact Section ────────────────────────────── */
+.Contact {
+  background-color: rgba(50, 50, 50, 0.9);
+  padding: 50px 10vw;
+  text-align: left;
+}
+
+.Contact h2 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Contact p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.Contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Contact ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.Contact .social ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.Contact .social ul li {
+  margin-right: 20px;
+}
+
+.Contact .social ul li a {
+  font-size: 1.6em;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.Contact .social ul li a:hover {
+  color: #00ffcc;
+}
+
+/* ─── Responsive ─────────────────────────────────── */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li a {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .logo img {
+    width: 45px;
+  }
+
+  #home {
+    flex-direction: column-reverse;
+    padding: 20px 5vw;
+  }
+
+  .hero-content {
+    font-size: 1.5em;
+    padding: 20px 5vw;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .About,
+  .Experience,
+  .Projects,
+  .Blog,
+  .Contact {
+    padding: 20px 5vw;
+  }
+
+  .About h2,
+  .Experience h2,
+  .Projects h2,
+  .Blog h2,
+  .Contact h2 {
+    font-size: 2.5em;
+  }
+
+  .About p,
+  .Experience p,
+  .Projects p,
+  .Blog p,
+  .Contact p {
+    font-size: 1em;
+  }
+
+  .Experience h3,
+  .Projects h3,
+  .Blog h3 {
+    font-size: 1.5em;
+  }
+
+  .Projects a,
+  .Blog a {
+    font-size: 1em;
+  }
+
+  .Contact ul li {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    font-size: 1rem;
+  }
+}
