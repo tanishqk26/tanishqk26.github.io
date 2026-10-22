@@ -1,26 +1,47 @@
-// Same About section — same text, same layout, fade-in class
 export default function About() {
   return (
-    <section id="about" className="About fade-in">
-      <div className="about-content">
-        <h2>About Me</h2>
+    <section id="about" className="section about-section fade-in">
+      <div className="about-bg" aria-hidden="true" />
+
+      <div className="section-head center">
+        <span className="eyebrow">01 — About</span>
+        <h2>Who I Am</h2>
+      </div>
+
+      <div className="about-copy">
         <p>
-          Hello! I'm Tanishq Deepak Kokane, an AI enthusiast and problem solver passionate about
-          developing intelligent solutions. My expertise lies in machine learning, deep learning,
-          and NLP, where I focus on building models that solve real-world challenges.
+          I'm an <span className="em">AI Engineer</span> focused on shipping
+          production systems — not demos. My work sits at the intersection of
+          <span className="em"> agentic workflows, retrieval, and automation</span>,
+          and I enjoy the full loop: designing the pipeline, picking the right
+          models, and wiring the backend that puts it in users' hands.
         </p>
-        <br />
         <p>
-          I specialize in fine-tuning AI models, optimizing performance, and integrating AI into
-          practical applications. With experience in agentic AI, semantic search, voice AI, and
-          OCR pipelines, I continuously explore innovative ways to push the boundaries of AI.
+          Over the last year I've built voice-to-lead pipelines, meeting
+          intelligence platforms, supplier-matching engines, and document
+          extraction systems — most of them in production, serving paying
+          clients at <span className="em">PhazeAI</span>.
         </p>
-        <br />
         <p>
-          Beyond technical expertise, I excel in leading AI-driven initiatives, managing teams,
-          and driving projects from ideation to execution. I believe in collaborative innovation,
-          staying ahead of trends, and leveraging AI to create meaningful impact.
+          Graduating 2026 from PDEA College of Engineering, Pune with a
+          <span className="em"> 9.27 GPA</span> in Information Technology.
+          Open to AI engineering roles and interesting collaborations.
         </p>
+
+        <a href="#contact" className="round-cta" data-cursor="Let's Talk">
+          Build Your<br />AI Product <span className="arr">→</span>
+        </a>
+      </div>
+
+      <div className="about-counters">
+        <div className="about-counter lime">
+          <div className="k">8+</div>
+          <div className="label">Client-facing AI products shipped</div>
+        </div>
+        <div className="about-counter">
+          <div className="k">5+</div>
+          <div className="label">Paying clients using the work</div>
+        </div>
       </div>
     </section>
   )
