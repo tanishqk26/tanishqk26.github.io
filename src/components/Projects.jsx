@@ -21,7 +21,14 @@ const PROJECTS = [
     initials: 'PR', g: ['#22d3ee', '#a78bfa'],
   },
   {
-    num: '04', title: 'CreatorIntel', tag: 'In Development',
+    num: '04', title: 'LabourBook — Farm Ops Platform', tag: 'Live',
+    description: 'Multi-platform farm labour & operations management system (web + mobile + API) built for grape farmers and FPOs in Maharashtra. Handles daily attendance for individuals and contracted Toli teams, cash advances, acre-based contracts, plot operations with photos, and ledger statements — with English, Hindi, and Marathi UI. In production use by FPOs and multiple farmers.',
+    stack: ['Next.js', 'FastAPI', 'Expo', 'PostgreSQL', 'Supabase'],
+    live: 'https://labour-book.vercel.app',
+    initials: 'LB', g: ['#15803d', '#84cc16'],
+  },
+  {
+    num: '05', title: 'CreatorIntel', tag: 'In Development',
     description: 'Multi-agent AI system analyzing YouTube creator ecosystems, detecting virality patterns, and surfacing content intelligence using LangGraph orchestration and specialized trend-analysis agents.',
     stack: ['LangGraph', 'FastAPI', 'YouTube API'],
     live: null,
